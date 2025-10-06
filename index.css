@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+
+
+.medidor {
+    width: 100%;
+    padding: 4% 0;
+}
+.rango {
+    width: 60%;
+    height: 40px;
+    padding: 5vh 0;
+}
+.rango, label, .boton {
+    display: block;
+    margin: 0 auto;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(98, 18, 77);
+}
+.boton {
+    padding: 1%;
+}
+
+/* ahora los estilos de los que llegan  */
+.caja-respuesta {
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 60vh;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color:antiquewhite;
+}
+.oculto {
+    display: none;
+}
+
+
+.imagen {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.textoRespuesta {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 480px) {
+    .caja-respuesta {
+        height: 40vh;
+    }
+}
