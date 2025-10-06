@@ -62,6 +62,7 @@ label {
 
 @media (max-width: 480px) {
     .caja-respuesta {
-        height: 40vh;
+        height: 48vh;
     }
+
 }
